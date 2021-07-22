@@ -1,0 +1,20 @@
+.services{
+  width: fit-content;
+  border-radius: 10px;
+  color: darkslategrey;
+  font-family: Montserrat Alternates;
+  font-weight: 700;
+  font-style: normal;
+  margin: 10px;
+  background-color: #EBEBEB;
+  display: inline-block;
+}
+
+.services:hover{
+  background-color: #d8d7d7;
+}
+
+
+.heading{
+     margin: 20px;
+}

@@ -1,0 +1,169 @@
+.formHeading{
+    color: #F5530B;
+    font-family: calibri;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.color{
+    color: #F5530B;
+    font-weight: 700;
+    font-family: Montserrat Alternates;
+    font-style: normal;
+}
+
+
+.left{
+    flex: 0.4;
+    height: 100%;
+    overflow: scroll;
+}
+
+.left::-webkit-scrollbar{
+    display: none;
+}
+
+.formSection{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 5vh 40px;
+    box-shadow: -2px 6px 25px -4px darkslategrey;
+    padding: 20px;
+    height: 90vh;
+}
+
+.form{
+    display: block;
+}
+
+
+.input{
+    width: 100%;
+    border: none; outline: none;
+    border-bottom: 2px solid darkslategrey ;
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    color: darkslategrey;
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.selection{
+     width: 100%;
+     border: none; outline: none;
+    border-bottom: 2px solid darkslategrey ;
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    color: darkslategrey;
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+
+.right{
+    flex: 0.5;
+    background-image:url('/tree.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-color: gray;
+    height: 100%;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    width:80% !important;
+    border:2px solid #F5530B !important;
+    padding: 10px 5px !important;
+    border-radius:50px !important;
+    margin: 30px auto !important;
+    color: darkslategrey !important;
+    font-weight: 700 !important;
+    font-family: Montserrat Alternates !important;
+}
+
+.buttondiv{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+
+.WhiteHeading{
+    color: white !important;
+    font-weight: 700 !important;
+    font-family: Montserrat !important;
+    font-style: normal !important;
+    text-align: center;
+}
+
+.buttonWhite{
+    color: white !important;
+    font-weight: 700 !important;
+    font-family: Montserrat !important;
+    font-style: normal !important;
+    border: 2px solid white !important;
+    width: 150px !important;
+    padding: 10px 15px !important;
+    border-radius: 50px !important;
+}
+
+
+.logo{
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.uploadLogo{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items:flex-end;
+}
+
+.icon{
+    margin-top: -18px;
+    z-index: 50;
+}
+
+@media(max-width:1030px) {
+    .formHeading{
+        font-size: 24px;
+    }
+}
+
+@media(max-width:950px) {
+    .left{
+         overflow: none !important;
+         height: fit-content;
+         flex: none;
+    }
+    .right{
+         background: none !important;
+         height: fit-content;
+         flex: none;
+    }
+
+    .WhiteHeading{
+        color: darkslategrey !important;
+    }
+
+    .buttonWhite{
+        color: darkslategrey !important;
+        border: 2px solid #F5530B !important;
+        width: 80% !important;
+        margin-bottom: 50px !important;
+    }
+
+    .formSection{
+        display: block;
+        margin: 0px !important;
+        box-shadow: none !important;
+        padding: 40px 10px !important;
+    }
+}
